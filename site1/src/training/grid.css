@@ -1,0 +1,21 @@
+.head { grid-area: header; }
+.nav{grid-area:nav;}
+.left { grid-area: left; }
+.middle { grid-area: middle; }
+.footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid:
+  'header header header header header header'
+  'nav nav nav nav nav nav '
+  'left middle middle middle middle middle'
+  'left footer footer footer footer footer';
+  grid-gap: 1px;
+
+}
+
+body{
+  margin: 1px;
+  background-color: rgb(208, 228, 211);
+}

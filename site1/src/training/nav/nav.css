@@ -1,0 +1,32 @@
+
+
+.nav ul {
+  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(83, 82, 82);
+
+  }
+
+li a {
+
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 24px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+
+   li a.active {
+    background-color: rgb(209, 108, 108);
+  }
+
+  
+
+

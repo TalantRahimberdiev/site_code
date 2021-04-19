@@ -1,0 +1,38 @@
+.left ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    
+    
+    
+  }
+
+li {
+    text-align: left;
+    margin-left: 1%;
+    text-decoration: none;
+    line-height: 2;
+    font-size: medium;
+    font-stretch: condensed;
+
+  }
+  #left:hover {
+    background-color: rgb(10, 9, 9);
+    color: white;
+    cursor: pointer;
+  }
+
+  li.activeTopic {
+    background-color: rgb(209, 108, 108);
+  }
+  .left{
+    background-color: rgb(240, 240, 240);
+    width:152px;
+  }
+  
+
+  
